@@ -1,5 +1,5 @@
-const YEAR = new Date().getFullYear()
-const AUTHOR = <a href="https://www.adonys.me/">www.adonys.me</a>
+import RssLink from './components/rss-link'
+import CopyrightText from './components/copyright-text'
 
 export default {
   projectLink: 'https://github.com/adonyssantos/blog',
@@ -8,8 +8,15 @@ export default {
   prevLinks: true,
   search: true,
   footer: (
-    <small style={{ display: 'block', marginTop: '8rem' }}>
-      <time>{YEAR}</time> © {AUTHOR}.<a href="/feed.xml">RSS</a>
+    <small
+      style={{
+        display: 'flex',
+        justifyContent: 'space-between',
+        marginTop: '8rem'
+      }}
+    >
+      <CopyrightText />
+      <RssLink />
       <style jsx>{`
         a {
           float: right;
