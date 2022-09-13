@@ -1,12 +1,12 @@
 ---
-title: Consigue trabajo como Freelancer desde casa
+title: Get a Freelancer job from home
 date: 2022/09/13
-description: Trabaja y gana dinero por tu cuenta, de forma independiente.
+description: Work and earn money on your own, independently.
 tag: remote work, freelance
 author: Adonys Santos
 ---
 
-# Consigue trabajo como Freelancer desde casa
+# Get a Freelancer job from home
 
 ## Tabla de contenidos
 
