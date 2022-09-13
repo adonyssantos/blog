@@ -1,10 +1,10 @@
 const YEAR = new Date().getFullYear()
+const AUTHOR = <a href="https://www.adonys.me/">www.adonys.me</a>
 
 export default {
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
-      <time>{YEAR}</time> © Your Name.
-      <a href="/feed.xml">RSS</a>
+      <time>{YEAR}</time> © {AUTHOR}.<a href="/feed.xml">RSS</a>
       <style jsx>{`
         a {
           float: right;
